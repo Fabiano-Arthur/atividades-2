@@ -1,0 +1,12 @@
+let p;
+let pO;
+let t;
+let x;
+console.log("digite a taxa de contaminação que uma pessoa: ");
+x();
+console.log("digite o tempo: ");
+t();
+console.log("digite a quantidade de infectados inicialmente: ");
+pO();
+p = Math.pow(pO/x,t/7);
+console.log("o total de infectados é ", p);

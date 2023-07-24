@@ -1,0 +1,13 @@
+let m;
+let c;
+let i;
+let t;
+console.log("digite o tempo em meses:");
+t();
+console.log("digite o valor da taxa:");
+i();
+i= i / 100;
+console.log("digite o valor do montante");
+c();
+m = c * Math.pow(1+i,t);
+console.log("o valor a ser pago é:",m);
